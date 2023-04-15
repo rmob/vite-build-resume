@@ -26,7 +26,7 @@ export default function Resume() {
       <h1 style={styles.margin}>Download my resume<a style={styles.download} href="public/rmob_resume.rtf" download="resume-riley">here</a></h1>
       
       <h2>Web-dev Proficiencies:</h2>
-      <ul className="unordered-list back-black">
+      <ul className="back-black">
       {skills.map((skill) => <SkillsList set={skill} />)}
       </ul>
     </div>
