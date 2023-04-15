@@ -99,6 +99,13 @@ ul {
   align-items: center;
 }
 
+.portfolio-container {
+  display: flex;
+  justify-content: center;
+
+  margin: 0 auto;
+}
+
 .about-info {
   display: flex;
   flex-wrap: wrap;
@@ -155,11 +162,20 @@ label {
 }
 
 .project-view {
-  border: 1px dotted black;
-  margin-left: 2rem;
+  margin: 0 auto;
   margin-bottom: 2rem;
   min-width: 200px;
 
+}
+
+.project-view h2, h3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-view h2 {
+  font-size: 3rem
 }
 
 #footer-links {
@@ -173,13 +189,20 @@ label {
 }
 
 .picture {
-  max-width: 300px;
+  max-width: 500px;
+  
+  padding: 2rem
 }
 
 #face-avatar {
   width: 550px;
   margin-top: 2rem;
   
+}
+
+#downloadResume {
+  margin-left: 0;
+  margin-right: .5rem;
 }
 
 @media (max-width: 515px) {
@@ -206,5 +229,9 @@ label {
 
   .project-view {
     width: 100%
+  }
+
+  .picture {
+    width: 300px;
   }
 }

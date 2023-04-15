@@ -57,23 +57,21 @@ const projects = [
 ]
 
 export function Project(props) {
-  return <div>
+  return <div className='project-view'>
     
-      
     <h3 style={styles.headerThree}>{props.title}</h3>
     <img className='picture' src={props.pic} alt={`${props.title}-view`}/>
     <div>
     <a style={styles.anchor} href={props.github}>repo</a>
     <a style={styles.anchor} href={props.deploy}>site</a>
-    </div>
-    
+    </div> 
   </div>
 }
 
 export default function Portfolio() {
   return (
     <>
-      <div className="container">
+      <div className="portfolio-container">
       <div className="project-view">
       <h2>Portfolio</h2>
       

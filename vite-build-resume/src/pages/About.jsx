@@ -1,5 +1,5 @@
 import React from 'react';
-import face from '/public/my-face.png'
+import face from '/my-face.png'
 
 
 export default function About() {

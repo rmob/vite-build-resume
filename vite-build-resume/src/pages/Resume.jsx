@@ -6,11 +6,15 @@ const styles = {
     fontSize: 18
   },
   margin: {
-    marginTop: 50,
+    display: 'flex',
+    marginTop: '50px',
     fontFamily: "sans-serif",
     backgroundColor: 'whitesmoke',
     color: 'black',
-    fontSize: 15
+    fontSize: '1rem',
+    justifyContent: 'center',
+    padding: '1rem',
+    boxShadow: '3px 3px 10px white',
   }
 }
 
@@ -23,12 +27,12 @@ export default function Resume() {
   
   return (
     <div className="container">
-      <h1 style={styles.margin}>Download my resume<a style={styles.download} href="public/rmob_resume.rtf" download="resume-riley">here</a></h1>
-      
-      <h2>Web-dev Proficiencies:</h2>
+      <h1>Web-dev Proficiencies:</h1>
       <ul className="back-black">
       {skills.map((skill) => <SkillsList set={skill} />)}
       </ul>
+      <h2 style={styles.margin}><a style={styles.download} href="public/rmob_resume.rtf" download="resume-riley" id='downloadResume'>Download</a> my resume</h2>
+      
     </div>
   );
 }
