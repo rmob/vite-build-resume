@@ -9,12 +9,11 @@ const styles = {
     display: 'flex',
     marginTop: '50px',
     fontFamily: "sans-serif",
-    backgroundColor: 'whitesmoke',
-    color: 'black',
+    color: 'whitesmoke',
     fontSize: '1rem',
     justifyContent: 'center',
     padding: '1rem',
-    boxShadow: '3px 3px 10px white',
+    boxShadow: '2px 2px 4px white',
   }
 }
 
