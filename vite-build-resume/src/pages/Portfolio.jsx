@@ -61,7 +61,7 @@ export function Project(props) {
     
     <h3 style={styles.headerThree}>{props.title}</h3>
     <img className='picture' src={props.pic} alt={`${props.title}-view`}/>
-    <div>
+    <div className="links">
     <a style={styles.anchor} href={props.github}>repo</a>
     <a style={styles.anchor} href={props.deploy}>site</a>
     </div> 

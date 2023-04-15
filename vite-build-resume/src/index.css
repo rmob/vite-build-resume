@@ -165,6 +165,7 @@ label {
   margin: 0 auto;
   margin-bottom: 2rem;
   min-width: 200px;
+  
 
 }
 
@@ -190,7 +191,7 @@ label {
 
 .picture {
   max-width: 500px;
-  
+  border: 1px white solid;
   padding: 2rem
 }
 
@@ -203,6 +204,15 @@ label {
 #downloadResume {
   margin-left: 0;
   margin-right: .5rem;
+}
+
+.links {
+  margin-top: 2rem;
+}
+
+.links a {
+  padding: .5rem;
+  box-shadow: 2px 2px 5px white; 
 }
 
 @media (max-width: 515px) {
@@ -234,4 +244,5 @@ label {
   .picture {
     width: 300px;
   }
+
 }
